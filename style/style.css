@@ -349,7 +349,16 @@ header {
 .team__container {
     display: flex;
     justify-content: space-between;
+}
 
+.team__container1-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__container3-4 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .team__img1 {
@@ -549,6 +558,7 @@ header {
 .quote__text {
     font: 16px playfair-display-regular;
     color: #fff;
+    text-align: center;
 }
 
 .quote__name {
@@ -878,7 +888,7 @@ header {
 
 .stay__button {
     background-image: url("../img/button.png");
-    height: 45px;
+    height: 47px;
     width: 70px;
     background-color: rgba(255,255,255,0.5);
     border: none;

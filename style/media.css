@@ -33,6 +33,7 @@
 
     .items__container {
         width: 140px;
+        text-align: center;
     }
 
     .expertise__items-top {
@@ -59,7 +60,76 @@
 
     }
 
-    /*------ Our works  ---------*/
+    /*-------- Meet our team -------*/
+    .team__caption {
+        padding: 50px 20px 16px 20px;
+    }
+
+    .team__text{
+        padding: 0 20px 0 20px;
+    }
+
+    .team__hr{
+        margin: 18px auto 17px;
+    }
+
+    .team__human {
+        width: 120px;
+        margin: 0 10px 20px 10px;
+    }
+
+    .team__name {
+       margin: 11px 0 6px 0;
+    }
+
+    .team__about {
+        margin: 0 0 12px 0;
+    }
+
+    .team__container1-2 {
+          display: flex;
+          flex-direction: column;
+      }
+
+    .team__container3-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team__img1 {
+        background-image: url("../img/team1_mobile.JPG");
+        width: 120px;
+        height: 125px;
+    }
+
+    .team__img2 {
+        background-image: url("../img/team2_mobile.JPG");
+        width: 120px;
+        height: 125px;
+    }
+
+    .team__img3 {
+        background-image: url("../img/team3_mobile.JPG");
+        width: 120px;
+        height: 125px;
+    }
+
+    .team__img4 {
+        background-image: url("../img/team4_mobile.JPG");
+        width: 120px;
+        height: 125px;
+    }
+
+    .team__joinUs{
+        margin: 30px 0 21px 0;
+    }
+
+    .team__button{
+        margin: 0 0 40px 0;
+    }
+
+
+        /*------ Our works  ---------*/
 
     .works {
         padding: 50px 0 50px 0;
@@ -164,8 +234,176 @@
         width: 160px;
     }
 
+    /*----- quote -----*/
+    .quote__caption {
+        font: 50px playfair-display-regular;
+        margin: 29px 0 0 0;
+    }
+
+    .quote__text{
+        font: 14px playfair-display-regular;
+        padding: 0 20px 0 20px;
+    }
+
+    .quote__name {
+        margin: 22px 0 13px 0;
+    }
+
+    .quote__who {
+        margin: 0 0 20px 0;
+    }
+
+    .quote__container-img {
+        width: 120px;
+    }
+
+    .quote__img2, .quote__img3, .quote__img5, .quote__img6 {
+        display: none;
+    }
+
+
+    /*---------- news clients ---------*/
+
+    .news-client {
+        flex-direction: column;
+    }
+
+    .news__container {
+        margin: 0;
+        padding: 0 10px 0 10px;
+    }
+
+    .news__name , .news__email, .news__subject {
+        width: 280px;
+        height: 35px;
+    }
+
+    .news__message {
+        width: 280px;
+        height: 100px;
+    }
+
     .client{
-    display: none;
+    padding: 0 20px 0 20px;
+    }
+
+    .client__caption {
+        margin: 40px 0 40px 0;
+    }
+
+    .client__column-left {
+        margin: 0;
+    }
+
+    .client__img-container {
+        width: 120px;
+        height: 70px;
+        margin: 0 0 10px 0;
+    }
+
+    .client__img1 {
+        background-image: url("../img/client1_mobile.png");
+        height: 16px;
+        width: 120px;
+    }
+
+    .client__img2 {
+        background-image: url("../img/client2_mobile.png");
+        height: 19px;
+        width: 120px;
+    }
+
+    .client__img3 {
+        background-image: url("../img/client3_mobile.png");
+        height: 32px;
+        width: 120px;
+    }
+
+    .client__img4 {
+        background-image: url("../img/client4_mobile.png");
+        height: 18px;
+        width: 120px;
+    }
+
+    .client__img5 {
+        background-image: url("../img/client5_mobile.png");
+        height: 19px;
+        width: 120px;
+    }
+
+    .client__img10 {
+        background-image: url("../img/client10_mobile.png");
+        height: 65px;
+        width: 120px;
+    }
+
+    /*-------- footer -------*/
+
+    .footer {
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+        width: 280px;
+    }
+
+    .footer__tajam{
+        margin: 0;
+    }
+
+    .logo__container{
+        display: none;
+    }
+
+    .tajam__text {
+        display: none;
+    }
+
+    .tajam__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0 10px 0;
+        width: 280px;
+    }
+
+    .tajam__terms{
+        margin: 10px 0 10px 0;
+    }
+
+    .footer__studio {
+        margin: 20px 0 20px 0 ;
+    }
+
+    .contacts__address{
+        margin: 10px 0 15px 0;
+    }
+
+    .studio__container {
+        width: 280px;
+    }
+
+    .icons__img1 {
+        margin: 15px 5px 65px 0;
+    }
+
+    .studio__caption {
+        display: none;
+    }
+
+    .footer__stay{
+        margin: 0;
+    }
+
+    .stay__subscribe {
+        margin: 10px 0 10px 0;
+        width: 270px;
+    }
+
+    .stay__caption {
+        display: none;
+    }
+
+    .stay__copyright {
+        margin: 20px 0 10px 0;
     }
 
 }
