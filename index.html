@@ -5,24 +5,35 @@
     <title>Tajam</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 </head>
 <body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="main.js"></script>
 
-<header class="header">
+
+<header class="header" id="top">
+
         <nav class="nav__container">
+            <div class="nav__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div class="nav__logo-container">
-            <div class="nav__logo"></div>
-            <p class="nav__logo-text">tajam</p>
+                <div class="nav__logo"></div>
+                <p class="nav__logo-text">tajam</p>
             </div>
             <ul class="nav">
-                <li><a class="nav__link" href="">HOME</a></li>
-                <li><a class="nav__link" href="">ABOUT</a></li>
-                <li><a class="nav__link" href="">EXPERTISE</a></li>
-                <li><a class="nav__link" href="">TEAMS</a></li>
-                <li><a class="nav__link" href="">WORKS</a></li>
-                <li><a class="nav__link" href="">PEOPLE SAY</a></li>
-                <li><a class="nav__link" href="">CONTACT</a></li>
+                <li><a class="nav__link" href="#top">HOME</a></li>
+                <li><a class="nav__link" href="#ourStory">ABOUT</a></li>
+                <li><a class="nav__link" href="#expertise">EXPERTISE</a></li>
+                <li><a class="nav__link" href="#team">TEAMS</a></li>
+                <li><a class="nav__link" href="#works">WORKS</a></li>
+                <li><a class="nav__link" href="#quote">PEOPLE SAY</a></li>
+                <li><a class="nav__link" href="#footer">CONTACT</a></li>
             </ul>
         </nav>
     <div class="header-main">
@@ -36,7 +47,7 @@
     </div>
 </header>
 
-<section class="ourStory">
+<section class="ourStory" id="ourStory">
 
     <div class="ourStory__logo"></div>
     <div class="ourStory__info">
@@ -67,7 +78,7 @@
 
 </section>
 
-<section class="expertise">
+<section class="expertise" id="expertise">
 
     <h2 class="expertise__caption">EXPERTISE</h2>
     <p class="expertise__text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
@@ -135,7 +146,7 @@
 
 </section>
 
-<section class="team">
+<section class="team" id="team">
 
     <h2 class="team__caption">MEET OUR AMAZING TEAM</h2>
     <p class="team__text"> Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
@@ -175,7 +186,7 @@
 
 </section>
 
-<section class="works">
+<section class="works" id="works">
 
     <div class="works__container">
         <h2 class="works__caption">OUR WORKS</h2>
@@ -205,7 +216,7 @@
 
 </section>
 
-<section class="quote">
+<section class="quote" id="quote">
 
     <div class="quote__container">
         <h2 class="quote__caption">“</h2>
@@ -231,7 +242,7 @@
 
 </section>
 
-<section class="news-client">
+<section class="news-client" id="news-client">
 
     <div class="news__container">
         <h2 class="news__caption">GIVE US A GOOD NEWS</h2>
@@ -266,7 +277,7 @@
 
 </section>
 
-<footer class="footer">
+<footer class="footer" id="footer">
 
     <div class="footer__tajam">
         <div class="logo__container">
